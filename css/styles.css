@@ -1,0 +1,38 @@
+*{
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+h2{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+body{
+    background-color: rgb(187, 247, 227);
+}
+
+.productos{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 50px 0 50px;
+    padding: 50px;
+}
+
+.productos img{
+    height: 400px;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
